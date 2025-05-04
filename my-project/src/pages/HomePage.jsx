@@ -21,8 +21,9 @@ const HomePage = () => {
               </span>
             </h1>
             <p className="text-base/8 mb-7">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel quas
-              dolores facere neque dolore ad quos debitis? Sunt, quis porro.
+              Website ini dibuat dengan menggunakan Tailwind CSS, sebuah
+              framework CSS yang populer digunakan untuk membuat desain
+              responsif dan konsisten.
             </p>
             <a
               href="#"
@@ -55,14 +56,13 @@ const HomePage = () => {
           </div>
           <div className="box md:order-2 order-1">
             <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7">
-              Belajar Membuat Website Dengan{" "}
+              Website sederhana React JS dengan{" "}
               <span className="font-bold text-sky-400 underline">
                 Tailwind CSS
               </span>
             </h1>
             <p className="text-base/loose">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel quas
-              dolores facere neque dolore ad quos debitis? Sunt, quis porro.
+              Web Sederhana ini dibuat dengan menggunakan React JS dan Tailwind
             </p>
           </div>
         </div>
@@ -70,11 +70,11 @@ const HomePage = () => {
 
         {/* section services */}
         <div className="services pt-32" id="services">
-          <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-7">
+          <h1 className="text-center lg:text-5xl/tight text-4xl font-bold mb-7">
             Layanan
           </h1>
           <p className="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing.
+            Berikut ini adalah beberapa layanan yang kami sediakan
           </p>
           <div className="services-box pt-12 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1  gap-6">
             <div className="box bg-sky-400 rounded-lg shadow p-4">
@@ -116,10 +116,10 @@ const HomePage = () => {
 
         {/* section proyek */}
         <div className="proyek pt-32" id="proyek">
-          <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-7">
+          <h1 className="text-center lg:text-5xl/tight text-4xl font-bold mb-7">
             Proyek
           </h1>
-          <p className="text-white text-base/loose">
+          <p className="text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In, vero.
           </p>
           <div className="proyek-box pt-12 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1  gap-6">
